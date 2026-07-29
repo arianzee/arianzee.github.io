@@ -1,0 +1,71 @@
+body {font-family:Verdana, Geneva, sans-serif; background: #235F9C; background-image:url(background/bgd_body.png); background-repeat:repeat; line-height: 140%; font-size: .9em;  }
+
+ul.Left {margin-left: 0; padding-left:16px;}
+.MarginTopZero {margin-top:0px;}
+.MarginBottomZero {margin-bottom:0px;}
+.Bold {font-weight:bold;}
+.BoldColor {font-weight:bold; color:#330000;}
+
+
+a:link, a:visited {color:#333;}
+a:hover {background:#DEE7F2; text-decoration:none;}
+.Italic {font-style:italic;}
+img {border:none;}
+p.LinkToTop {text-align:right; font-size:10px;}
+p.LinkToTop a, p.LinkToTop a:visited { text-decoration:none;}
+
+div#Wrapper {width:860px; margin: 20px auto 5px auto; position:relative; background: white; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+
+div#Header {height:120px; background:#001a57; background-image:url(background/bgd_header.png); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom:8px solid #AB0200; border-bottom: 8px solid #ab3c00; }
+
+div#Header a:link, div#Header a:visited {text-decoration: none;}
+
+td#CourseDeets {font-size:11px; font-weight:bold; width:133px; padding-top:47px; padding-left:15px; line-height:150%; color:#AB0200; color:#001a57; color:white; letter-spacing:+1px;}
+
+td#CourseTitle {font-size:40px; font-family:Georgia, "Times New Roman", Times, serif; letter-spacing: +1px; padding-top:50px;  color:#AB0200; color:#001a57; color:white;}
+
+div#InnerWrapper {width:860px; position:relative; }
+
+div#NavHolder {width: 100px; float:left; margin-left:15px; font-size:11px; line-height:120%;}
+ul#NavLinks {margin-left:0; padding:0; margin-top:0px; padding-top:0px;}
+#NavLinks li {list-style:none; text-align:left; border-bottom: 1px solid silver; padding:2px 0px;}
+#NavLinks li a {padding-right:10px; padding-left:0px; text-decoration:none; }
+
+#NavLinks li a:link, #NavLinks li a:visited {color:gray;}
+#NavLinks li a:hover {background:#DEE7F2; padding-right: 10px; text-decoration:none; color:black;}
+
+#Content {margin-left: 150px; padding-top: 0px; padding-right: 50px; padding-bottom: 20px; background:white;}
+
+h1#PageTitle, h2.SectionHead {font-size: 23px; font-weight:normal; color:#ab0200; color:#ab3c00; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold; letter-spacing: +1px; line-height:100%; margin-top:25px; margin-bottom:10px; padding-bottom:2px;}
+
+h1#PageTitle {font-size: 24px; color: #ab0200; }
+
+h2.SectionHead {border-top:1px solid silver; padding-top:15px;}
+
+
+div.ImageWrapper {border: 1px solid silver;}
+p.HomeCaption {font-size:10px; line-height:120%; margin-bottom:0px; padding-right:10px; padding-bottom:7px; padding-left:10px; }
+
+table {border-collapse:collapse;}
+table td {vertical-align:top;}
+
+table.HomeBooks td.ColOne {padding-right:10px;}
+div#HomeBooks p {margin-top:0px; margin-bottom: 5px;}
+
+table#LecturesTable tr.LecturesSectionHead td {color:#ab0200; color:#ab3c00;}
+
+table#LecturesTable {border-bottom:1px solid silver; border-top:none;}
+
+table#LecturesTable tr.LecturesSectionHead td {font-weight:bold; background:#DEE7F2;}
+
+table#LecturesTable td {padding: 2px 20px 2px 0px; border-bottom:1px solid silver; line-height:140%;}
+
+table#LecturesTable td.ColOne {}
+table#LecturesTable td.ColTwo {width:70px;}
+table#LecturesTable td.ColThree {}
+table#LecturesTable td.ColFour {width:120px;}
+
+table#AssignmentsTable {border-top:1px solid silver;}
+table#AssignmentsTable td {border-bottom: 1px solid silver; text-align:center; padding-right: 20px; line-height:160%;}
+
+span.Exam {font-weight:bold; color: #a70000;}
